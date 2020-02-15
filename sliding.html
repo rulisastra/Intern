@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tips and smarter ways to shop online">
+    <meta name="author" content="Paola MB">
+    <title>Smart ways to shop online</title>  
+    <!-- Font Awesome-->
+    <link rel="stylesheet" type="text/css" href="slidingstyle.css">
+    <!-- Google Font 'Satisfy'-->
+    <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+    <!-- Scroll Reveal Effects -->
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+  </head>
+  <body>
+     <header>
+       <h1>Smart ways to shop online</h1>
+       <p>I've recently discovered <em>price discrimination tactics</em> from online businesses like <strong>Udemy</strong>. <br><br>Learn how to game the system and get the <strong>lowest price</strong> 😎
+       </p>          
+     </header>
+         
+    <main>
+    
+      <!-- Different Device -->
+      <section id="device" class="container">
+         <div class="icon">
+           <i class="fas fa-mobile-alt"></i>
+         </div>
+         <div class="description">
+           <h3>Different device</h3>
+           <p>Accesing a site with an Apple product could throw higher prices than other brands.</p>
+         </div>
+      </section> <!-- / Different Device --> 
+      
+      <!-- Different Browser -->
+      <section id="browser" class="container">
+         <div class="icon">
+           <i class="fab fa-safari"></i>
+         </div>
+         <div class="description">
+           <h3>Different browser</h3>
+           <p>Access a site with different browsers. Safari could show higher prices than Chrome.</p>
+         </div>
+      </section> <!-- / Different Browser -->
+      
+      <!-- Icognito Mode -->
+      <section id="incognito" class="container">
+         <div class="icon">
+           <i class="fas fa-user-secret"></i>
+         </div>
+         <div class="description">
+           <h3>Incognito mode</h3>
+           <p>Access a site after clearing the cache or in incognito mode so you can enter and leave without cookies, so they won't learn your shopping patterns.</p>
+         </div>
+      </section> <!-- / Incognito mode -->
+      
+      <!-- Banner ads -->
+      <section id="ads" class="container">
+         <div class="icon">
+           <i class="fas fa-bullhorn"></i>
+         </div>
+         <div class="description">
+           <h3>Banner ads</h3>
+           <p>After accessing a site some banner ads with cool offers might "follow" you from site to site, you're being retargetted with AdSense.</p>
+         </div>
+      </section> <!-- / Banner ads -->
+      
+      <!-- Coupon codes -->
+      <section id="coupon" class="container">
+         <div class="icon">
+           <i class="fas fa-search"></i>
+         </div>
+         <div class="description">
+           <h3>Coupon codes</h3>
+           <p>Search for coupon codes from affiliates online. I've used this for hosting services ;) </p>
+         </div>
+      </section> <!-- / Coupon codes -->
+      
+      <!-- Video -->
+      <section id="video">
+          <p>Don't believe me? Test it yourself or watch this experiment done by <strong>CBC News</strong> on YouTube:</p>
+          <p>
+          <a href="https://youtu.be/NZVpbwz6kPk" title="Youtube video about price discrimination by CBC News"><i id="youtube" class="fas fa-video"></i></a>         
+          </p>
+      </section> <!-- / Video -->
+              
+    </main>
+    
+    <!--SCROLL REVEAL EFFECT  -->
+       <script>
+           window.sr = ScrollReveal();
+
+           sr.reveal('#device', {
+               duration: 2000,
+               origin: 'left',
+               distance: '-100px',
+               viewFactor: 0.1,
+               reset: true
+           });
+
+           sr.reveal('#browser', {
+               duration: 2000,
+               origin: 'right',
+               distance: '-100px',
+               viewFactor: 0.1,
+               reset: true
+           });
+           
+           sr.reveal('#incognito', {
+               duration: 2000,
+               origin: 'left',
+               distance: '-100px',
+               viewFactor: 0.1,
+
+               reset: true
+           });
+           
+           sr.reveal('#ads', {
+               duration: 2000,
+               origin: 'right',
+               distance: '-100px',
+               viewFactor: 0.1,
+               reset: true
+           });
+           
+           sr.reveal('#coupon', {
+               duration: 2000,
+               origin: 'left',
+               distance: '-100px',
+               viewFactor: 0.1,
+               reset: true
+           });
+       </script>
+  </body>
+</html>
