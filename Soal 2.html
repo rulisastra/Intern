@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+<head></head>
+
+<body>
+    <h3> Percobaan menggunakan <u>pseudo-element</u> untuk CSS</h3>
+    <p>Gunanya untuk mengubah style pada elemen tertentu. Diantaranya:
+        <li>::first-line</li>
+        <li>::first-element</li>
+        <li>::selection</li>
+        <li>::after dan before</li>
+    </p>
+</body>
+</html>
+
+<style>
+    h3::first-letter {
+    font-size: 15pt;
+    color: #20bcd5;
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: 0 0 10px 0;
+    }
+
+    p::first-line {
+    color: brown;
+    font-weight: 200;
+    }           
+</style>
