@@ -1,4 +1,4 @@
-# [WebDev](https://github.com/rulisastra/WebDev.git)
+# [WebDev](https://github.com/rulisastra/kumpulanWeb.git)
 Dulu saya pernah menjadi newbie dan dokumentasi masihlah acak2an.
 Semangat Ruli!
 
